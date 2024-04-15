@@ -43,3 +43,42 @@ img {
     margin: 20px; /* Add margin */
     margin-left: 50%;
 }
+
+.covid-19-body{
+    background-color: white;
+}
+
+.covid-overskrift{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-style: thin;
+        font-size: 4rem;
+        text-align: center;
+}
+
+.covid-underskrift{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-style: thin;
+        font-size: 2rem;
+        text-align: center;
+}
+
+.covid-artikel{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: thin;
+text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.lena{
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    left: -12%;
+}
+
