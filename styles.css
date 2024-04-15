@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    height: 110vh;
+    width: 100%;
+}
+
+h1{
+    color: white;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+        font-style: thin;
+    text-align: center;
+    margin-top: 50rem;
+}
+
+.epidemier-boks{
+    width: 300px;
+}
+
