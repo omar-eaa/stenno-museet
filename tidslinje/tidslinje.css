@@ -132,15 +132,12 @@ text-align: center;
     width: auto;
     display: flex;
     flex-direction: row;
-    
-    
 }
 .pesten-h1{
     font-size: 4rem;
     width: 70%;
     margin-left: 5%;
 }
-
 .tekst-pest{
    width: 40%;
    margin-left: 20%;
@@ -160,9 +157,66 @@ text-align: center;
 
 }
 
+.pesten-area2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left:  20%; 
+    padding-right:  20%; 
+}
 
+.pesten-area2 p{
+    font-size: 1.5rem;
+    width: 90%;
+}
+.pesten-area2 img{
+    height: auto;
+    width: 70vh;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+/* area 2👇 */
+.pesten-area3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left:  20%; 
+    padding-right:  20%; 
+}
 
+.pesten-area3 p{
+    font-size: 1.5rem;
+    width: 90%;
+}
+.pesten-area3 img{
+    height: auto;
+    width: 50vh;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+/* area 4👇 */
 
+.pesten-area4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    gap: 2rem
+    ;
+   
+}
+
+.pesten-area4 p{
+    font-size: 1.5rem;
+    width: 40%;
+    margin-left: 10%;
+}
+.pesten-area4 img{
+    height: auto;
+    width: 50vh;
+    margin-top: -17%;
+    margin-left: 60%;
+    
+}
 
 
 
