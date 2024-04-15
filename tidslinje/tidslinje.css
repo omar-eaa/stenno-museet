@@ -151,28 +151,28 @@ text-align: center;
 /* TUBERKULOSE STYLING!!! */
 
 #content_tuberkulose{
-    height: 2000px;
+    height: 4000px;
 }
 
-.tuberkulose_text h1{
+.tuberkulose_side1 h1{
     text-align: center;
 }
 
-.tuberkulose_text h2{
+.tuberkulose_side1 h2{
     text-align: center;
     color: #fff;
     margin-top: 20px;
     font-size: 30px;
 }
 
-.tuberkulose_text h3{
+.tuberkulose_side1 h3{
     text-align: center;
     color: #fff;
     margin-top: 10px;
     font-size: 25px;
 }
 
-.tuberkulose_text p{
+.tuberkulose_side1 p{
     font-size: 35px;
     width: 70vh;
     position: absolute;
@@ -181,9 +181,65 @@ text-align: center;
     text-align: center;
 }
 
-#content_tuberkulose img{
+.tuberkulose_side1 img{
     width: 18%;
     position: absolute;
     top: 40%;
     right: 15%;
+}
+
+
+.tuberkulose_side2 p{
+    font-size: 35px;
+    width: 85%;
+    position: absolute;
+    top: 130%;
+    left: 5%;
+    text-align: center;
+    
+}
+
+.tuberkulose_side2 img{
+    width: 60%;
+    position: absolute;
+    top: 155%;
+    right: 18%;
+    filter: grayscale(1) blur(1px) contrast(1.2) sepia(1);
+    -webkit-mask: radial-gradient(#000, #0009);
+}
+
+
+.tuberkulose_side3 p{
+    font-size: 35px;
+    width: 35%;
+    position: absolute;
+    top: 250%;
+    right: 8%;
+    text-align: center;
+    
+}
+
+
+.tuberkulose_side3 img{
+    width: 40%;
+    position: absolute;
+    top: 260%;
+    right: 50%;
+}
+
+
+.tuberkulose_side4 p{
+    font-size: 35px;
+    width: 40%;
+    position: absolute;
+    top: 365%;
+    right: 55%;
+    text-align: center;
+}
+
+.tuberkulose_side4 img{
+    width: 40%;
+    position: absolute;
+    top: 380%;
+    right: 5%;
 }
