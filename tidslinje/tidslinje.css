@@ -28,7 +28,7 @@ p{
 
 p1{
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -38,12 +38,27 @@ p1{
 .text-kopper{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     gap: 1,5rem;
     margin-top: 6%;
     margin-left: 10%;
     text-align: center;
+    font-size: 1rem;
 }
+
+.kopper-section{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+
+.kopper-img{
+    width: auto;
+    height: 40px;
+}
+
+
 
 img {
     width: 300px; /* Set width */
@@ -92,19 +107,16 @@ text-align: center;
 }
 
 
-
-
-.kopper-img{
-    width: auto; /* Set width */
-    height: 40vh; /* Maintain aspect ratio */
-    border-radius: 10px; /* Add rounded corners */   
-    margin-top: 6%;
+/* pesten styling 👇 */
+.pesten-h1{
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 5%;
 }
 
-.kopper-section{
+.pest-section{
     display: flex;
-    flex-direction: row;
-    gap: 5rem;
+    flex-direction: column;
 }
 
 
@@ -144,3 +156,132 @@ text-align: center;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TUBERKULOSE STYLING!!! */
+
+#content_tuberkulose{
+    height: 4000px;
+}
+
+.tuberkulose_side1 h1{
+    text-align: center;
+}
+
+.tuberkulose_side1 h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.tuberkulose_side1 h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.tuberkulose_side1 p{
+    font-size: 35px;
+    width: 70vh;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    text-align: center;
+}
+
+.tuberkulose_side1 img{
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.tuberkulose_side2 p{
+    font-size: 35px;
+    width: 85%;
+    position: absolute;
+    top: 130%;
+    left: 5%;
+    text-align: center;
+    
+}
+
+.tuberkulose_side2 img{
+    width: 60%;
+    position: absolute;
+    top: 155%;
+    right: 18%;
+    filter: grayscale(1) blur(1px) contrast(1.2) sepia(1);
+    -webkit-mask: radial-gradient(#000, #0009);
+}
+
+
+.tuberkulose_side3 p{
+    font-size: 35px;
+    width: 35%;
+    position: absolute;
+    top: 250%;
+    right: 8%;
+    text-align: center;
+    
+}
+
+
+.tuberkulose_side3 img{
+    width: 40%;
+    position: absolute;
+    top: 260%;
+    right: 50%;
+}
+
+
+.tuberkulose_side4 p{
+    font-size: 35px;
+    width: 40%;
+    position: absolute;
+    top: 365%;
+    right: 55%;
+    text-align: center;
+}
+
+.tuberkulose_side4 img{
+    width: 40%;
+    position: absolute;
+    top: 380%;
+    right: 5%;
+}
