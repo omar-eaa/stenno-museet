@@ -107,3 +107,40 @@ text-align: center;
     gap: 5rem;
 }
 
+
+
+
+/* pesten styling 👇 */
+
+.pest-section{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.pesten-h1{
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.tekst-pest{
+   width: 40%;
+   margin-left: 20%;
+   margin-top: 5%;
+}
+.tekst-pest p {
+    font-size: 1.5rem;
+    height: 33%;
+    width: 90%;
+    margin-top: 0;
+}
+.pest-section img{
+    width: 40vh;
+    height: auto;
+    margin-left: 2%; 
+    margin-top: 3%; 
+
+}
+
