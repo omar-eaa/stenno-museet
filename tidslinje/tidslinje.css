@@ -43,3 +43,62 @@ img {
     margin: 20px; /* Add margin */
     margin-left: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TUBERKULOSE STYLING!!! */
+
+#content_tuberkulose{
+    height: 2000px;
+}
+
+.tuberkulose_text h1{
+    text-align: center;
+}
+
+.tuberkulose_text h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.tuberkulose_text h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.tuberkulose_text p{
+    font-size: 35px;
+    width: 70vh;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    text-align: center;
+}
+
+#content_tuberkulose img{
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
