@@ -19,28 +19,28 @@ h1{
 
 p{
     color: rgb(255, 255, 255);
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 p1{
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 3%;
+   
  
 }
 .text-kopper{
     display: flex;
     flex-direction: column;
     width: 30%;
-    gap: 1,5rem;
-    margin-top: 6%;
+    gap: 2rem;
+    margin-top: 2%;
     margin-left: 10%;
     text-align: center;
     font-size: 1rem;
@@ -54,8 +54,12 @@ p1{
 
 
 .kopper-img{
-    width: auto;
-    height: 40px;
+   display: flex;
+   flex-direction:row;
+   height: 50%;
+   margin-left: 7%;
+   width: 35%;
+   margin-top: 3%;
 }
 
 
