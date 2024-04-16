@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    line-height: 1.5;
+}
+
+p1{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   
+}
+
+
+
+/* omars css 👇 */
+/* pesten styling 👇 */
+.pesten-h1{
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.pest-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* pesten styling 👇 */
+
+.pest-section{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.pesten-h1{
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 5%;
+}
+.tekst-pest{
+   width: 40%;
+   margin-left: 20%;
+   margin-top: 5%;
+}
+.tekst-pest p {
+    font-size: 1.5rem;
+    height: 33%;
+    width: 90%;
+    margin-top: 0;
+}
+.pest-section img{
+    width: 40vh;
+    height: auto;
+    margin-left: 2%; 
+    margin-top: 3%; 
+
+}
+
+.pesten-area2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left:  20%; 
+    padding-right:  20%; 
+}
+
+.pesten-area2 p{
+    font-size: 1.5rem;
+    width: 90%;
+}
+.pesten-area2 img{
+    height: auto;
+    width: 70vh;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+/* area 2👇 */
+.pesten-area3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left:  20%; 
+    padding-right:  20%; 
+}
+
+.pesten-area3 p{
+    font-size: 1.5rem;
+    width: 90%;
+}
+.pesten-area3 img{
+    height: auto;
+    width: 50vh;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+/* area 4👇 */
+
+.pesten-area4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    gap: 2rem
+    ;
+   
+}
+
+.pesten-area4 p{
+    font-size: 1.5rem;
+    width: 40%;
+    margin-left: 10%;
+}
+.pesten-area4 img{
+    height: auto;
+    width: 50vh;
+    margin-top: -17%;
+    margin-left: 60%;
+    
+}
+
+
+.pesten-area5{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 30%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+}
+.pesten-area5 h3{
+    font-size: 3rem;
+    color: #fff;
+    
+}
+
+.pesten-area5 p{
+    font-size: 2rem;
+    width: 80%;
+}
+
+
+.pest-btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin-top: 6%;
+
+
+    
+}
+.pest-btn-container button{
+
+    width: 270px; /* Set the width of the button */
+    height: 50px; /* Set the height of the button */
+    font-size: 1.5rem; /* Set the font size of the text inside the button */
+    padding: 10px 20px; /* Set the padding inside the button */
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* pest quiz 👇 */
+
+.pest-quiz{
+display: flex;
+flex-direction: column;
+margin-bottom: 10%;
+
+}
+
+.pest-quiz h2{
+    color: #fff;
+    font-size: 4rem;
+    margin-left: 10%;
+}
+.pest-quiz p{
+    width: 80%;
+    font-size: 2rem;
+    margin-left: 10%;
+
+}
+.pest-questions{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.pest-quiz span{
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 2%;
+    margin-left: 10%;
+   
+
+}
+.pest-answer-btn {
+    width:20%;
+    height:auto;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-left: 37%;
+}
+
+.pest-quiz .pest-btn-container{
+    margin-left: 26%;
+}
+
+/* omars css 👆 */
