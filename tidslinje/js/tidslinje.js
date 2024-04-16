@@ -29,3 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "../html-sider/covid-19.html";
   });
 });
+
+// button to index.html
+document.addEventListener("DOMContentLoaded", function () {
+  const goBack = document.getElementById("goBack");
+  goBack.addEventListener("click", function () {
+    window.location.href = "../../index.html";
+  });
+});
