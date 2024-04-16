@@ -1,45 +1,3 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: #000;
-    font-family: 'Montserrat', sans-serif;;
-}
-
-h1{
-    color: rgb(255, 255, 255);
-    font-size: 7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-}
-
-p{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2%;
-    line-height: 1.5;
-}
-
-p1{
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-   
- 
-}
-
-
-/* mads css 👇 */
 .covid-19-body{
     background-color: white;
 }
@@ -62,19 +20,139 @@ p1{
 }
 
 .covid-artikel{
+    position: absolute;
+    left: 5%;
     color: black;
     font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-style: thin;
 text-align: center;
-    width: 100%;
     padding: 20px;
+    font-size: 2rem;
+    width: 40%;
 }
 
 .lena{
-    width: 400px;
+    width: 500px;
     padding: 20px;
     position: absolute;
-    left: -12%;
+    left: 60%;
+    top: 28%;
+    border-radius: 50px;
 }
-/* mads css 👆 */
+
+.undertekst-lena{
+    position: absolute;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: thin;
+  font-size: 15px;
+  left: 76%;
+  top: 100%;
+}
+
+.covid-artikel-kap2{
+    position: absolute;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: thin;
+  font-size: 2rem;
+  top: 120%;
+  text-align: center;
+}
+
+.testcenter{
+    width: 700px;
+    padding: 20px;
+    position: absolute;
+    top: 145%;
+    left:25%;
+    border-radius: 50px;
+}
+
+.undertekst-testcenter{
+    position: absolute;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: thin;
+  font-size: 15px;
+  top: 220%;
+  left: 45%;
+}
+
+.covid-artikel-kap3{
+    position: absolute;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: thin;
+  font-size: 2rem;
+  top: 250%;
+  text-align: center;
+  width: 40%;
+  left: 5%;
+}
+
+.isolation{
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 250%;
+    left: 55%;
+    border-radius: 50px;   
+}
+
+.efter-tekst{
+    background-color: black;
+    position: absolute;
+    top: 350%;
+    width: 100%;
+    height: 45%;
+}
+
+.overskrift-efter{
+    position: absolute;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 45%;
+    top: 5%;
+    font-size: 2rem;
+}
+
+.underskrift-efter{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-style: thin;
+    font-size: 2rem;
+    text-align: center;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 5%;
+}
+
+.knapper{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.tidslinje-knap{
+    position: absolute;
+    top: 380%;
+    left: 30%;
+    width: 200px;
+}
+
+.quiz-knap{
+    position: absolute;
+    top: 380%;
+    left: 62%;
+    width: 200px;
+}
+
