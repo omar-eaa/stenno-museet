@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    line-height: 1.5;
+}
+
+p1{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   
+ 
+}
+/* hani css 👇 */
+.text-kopper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 2rem;
+    margin-top: 2%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.kopper-section{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+
+.kopper-img{
+   display: flex;
+   flex-direction:row;
+   height: 50%;
+   margin-left: 5%;
+   width: 40%;
+   margin-top: 3%;
+}
+
+.text-kopper2 p{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 2rem;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 34%;
+    margin-top: 17%;
+    margin-left: 10%;
+    line-height: 1.7;
+}
+
+.text-kopper2 img{
+    display: flex;
+    flex-direction: column;
+    width: 450px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    margin-left: 55%; 
+    margin-top: -75%;
+}
+
+#text-kopper3{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 1rem;
+    width: 70%;
+}
+
+#text-kopper3 p1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: -15%;
+    margin-left: 6%;
+    text-align: center;
+    font-size: 1rem;
+    width: 26%;
+    line-height: 1.5;
+}
+
+#text-kopper3 p2{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: -13%;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 1rem;
+    width: 20%;
+    line-height: 1.5;
+}
+
+#text-kopper3 p3{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: -27%;
+    margin-left: 69%;
+    text-align: center;
+    font-size: 1rem;
+    width: 20%;
+    line-height: 1.5;
+}
+
+#text-kopper4 img{
+    display: flex;
+    flex-direction:row;
+    height: 50%;
+    margin-left: 15%;
+    width: 30%;
+    margin-top: 10%;
+}
+
+#text-kopper4 p1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -48%;
+    line-height: 1.8;
+    width: 30%;
+    text-align: center;
+    margin-left: 55%;
+}
+
+img {
+    width: 700px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 20px; /* Add margin */
+    margin-left: 19%;
+}
+
+/* hani css 👆 */
+/* mads css 👇 */
+
+.kopper-img{
+    width: auto; /* Set width */
+    height: 40vh; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */   
+    margin-top: 6%;
+=======
+/* omars css 👇 */
+/* pesten styling 👇 */
+.pesten-h1{
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 5%;
+>>>>>>> eb0c3bb192bdcc21492456bde0ed549f9cd45962
+}
+
+.pest-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* pesten styling 👇 */
+
+.pest-section{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.pesten-h1{
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 5%;
+}
+.tekst-pest{
+   width: 40%;
+   margin-left: 20%;
+   margin-top: 5%;
+}
+.tekst-pest p {
+    font-size: 1.5rem;
+    height: 33%;
+    width: 90%;
+    margin-top: 0;
+}
+.pest-section img{
+    width: 40vh;
+    height: auto;
+    margin-left: 2%; 
+    margin-top: 3%; 
+
+}
+
+<<<<<<< HEAD
+
+=======
+.pesten-area2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left:  20%; 
+    padding-right:  20%; 
+}
+
+.pesten-area2 p{
+    font-size: 1.5rem;
+    width: 90%;
+}
+.pesten-area2 img{
+    height: auto;
+    width: 70vh;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+/* area 2👇 */
+.pesten-area3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left:  20%; 
+    padding-right:  20%; 
+}
+
+.pesten-area3 p{
+    font-size: 1.5rem;
+    width: 90%;
+}
+.pesten-area3 img{
+    height: auto;
+    width: 50vh;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+/* area 4👇 */
+
+.pesten-area4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    gap: 2rem
+    ;
+   
+}
+
+.pesten-area4 p{
+    font-size: 1.5rem;
+    width: 40%;
+    margin-left: 10%;
+}
+.pesten-area4 img{
+    height: auto;
+    width: 50vh;
+    margin-top: -17%;
+    margin-left: 60%;
+    
+}
+
+
+.pesten-area5{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 30%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+}
+.pesten-area5 h3{
+    font-size: 3rem;
+    color: #fff;
+    
+}
+
+.pesten-area5 p{
+    font-size: 2rem;
+    width: 80%;
+}
+
+
+.pest-btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin-top: 6%;
+
+
+    
+}
+.pest-btn-container button{
+
+    width: 270px; /* Set the width of the button */
+    height: 50px; /* Set the height of the button */
+    font-size: 1.5rem; /* Set the font size of the text inside the button */
+    padding: 10px 20px; /* Set the padding inside the button */
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* pest quiz 👇 */
+
+.pest-quiz{
+display: flex;
+flex-direction: column;
+margin-bottom: 10%;
+
+}
+
+.pest-quiz h2{
+    color: #fff;
+    font-size: 4rem;
+    margin-left: 10%;
+}
+.pest-quiz p{
+    width: 80%;
+    font-size: 2rem;
+    margin-left: 10%;
+
+}
+.pest-questions{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.pest-quiz span{
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 2%;
+    margin-left: 10%;
+   
+
+}
+.pest-answer-btn {
+    width:20%;
+    height:auto;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-left: 37%;
+}
+
+.pest-quiz .pest-btn-container{
+    margin-left: 26%;
+}
+
+/* omars css 👆 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* casper 👇 */
+
+/* TUBERKULOSE STYLING!!! */
+
+#content_tuberkulose{
+    height: 4000px;
+}
+
+.tuberkulose_side1 h1{
+    text-align: center;
+}
+
+.tuberkulose_side1 h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.tuberkulose_side1 h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.tuberkulose_side1 p{
+    font-size: 35px;
+    width: 70vh;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    text-align: center;
+}
+
+.tuberkulose_side1 img{
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.tuberkulose_side2 p{
+    font-size: 35px;
+    width: 85%;
+    position: absolute;
+    top: 130%;
+    left: 5%;
+    text-align: center;
+    
+}
+
+.tuberkulose_side2 img{
+    width: 60%;
+    position: absolute;
+    top: 155%;
+    right: 18%;
+    filter: grayscale(1) blur(1px) contrast(1.2) sepia(1);
+    -webkit-mask: radial-gradient(#000, #0009);
+}
+
+
+.tuberkulose_side3 p{
+    font-size: 35px;
+    width: 35%;
+    position: absolute;
+    top: 250%;
+    right: 8%;
+    text-align: center;
+    
+}
+
+
+.tuberkulose_side3 img{
+    width: 40%;
+    position: absolute;
+    top: 260%;
+    right: 50%;
+}
+
+
+.tuberkulose_side4 p{
+    font-size: 35px;
+    width: 40%;
+    position: absolute;
+    top: 365%;
+    right: 55%;
+    text-align: center;
+}
+
+.tuberkulose_side4 img{
+    width: 40%;
+    position: absolute;
+    top: 380%;
+    right: 5%;
+}
+/* casper css 👆 */
+>>>>>>> eb0c3bb192bdcc21492456bde0ed549f9cd45962
