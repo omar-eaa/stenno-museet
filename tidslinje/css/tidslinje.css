@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;;
+}
+.tidslinje-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.epidemier{
+    display: flex;
+    flex-direction: row;
+    gap: 9.5rem;
+}
+span{
+    color: #fff;
+}
+img{
+    height: auto;
+    width:80%;
+}
+
+
+.year{
+    font-size: 1.5rem;
+}
+
+.event{
+    font-size: 2rem;
+
+}
