@@ -109,3 +109,13 @@ function pageElem(parent, t, html, c) {
   element.classList.add(c);
   return parent.appendChild(element);
 }
+
+// tidslinje
+// back to timelinje
+
+document.addEventListener("DOMContentLoaded", function () {
+  const tidslinje = document.getElementById("tidslinje");
+  tidslinje.addEventListener("click", function () {
+    window.location.href = "../html-sider/tidslinje.html";
+  });
+});
