@@ -1,0 +1,23 @@
+[
+    {
+        "question": "Hvordan spredes COVID-19 primært?",
+        "answer":"Gennem luften",
+        "options": [
+            "1. Gennem luften", "2. Via direkte kontakt med smittede personer"
+        ]
+    },
+    {
+        "question": "Hvad var den mest almindelige form for pesten, der ramte Europa i middelalderen?",
+        "answer": "Lymfeknudepest",
+        "options": [
+            "Lungepest", "Loppepest"
+        ]
+    },
+    {
+        "question": "Hvad var det vigtigste middelalderlige kendetegn ved byldepesten?",
+        "answer": "Sorte bylder",
+        "options": [
+            "Svimmelhed & opkastning", "Hoste og åndenød"
+        ]
+    }
+]
