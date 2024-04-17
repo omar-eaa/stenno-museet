@@ -1,25 +1,25 @@
 body{
-    background-color: black;
+    background-color: white;
     height: 110vh;
     width: 100%;
 }
 
 h1{
-    color: white;
+    color: black;
         font-family: "Montserrat", sans-serif;
         font-weight: 100;
         font-style: thin;
         font-size: 4rem;
     text-align: center;
-    margin-top: 50rem;
+    margin-top: 20rem;
 }
 
-.forside-bokse{
+/* .forside-bokse{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 100px;
-}
+} */
 
 .forside-bokse img{
     width: 300px;
@@ -30,3 +30,38 @@ h1{
     height: 200vh;
     width: 100%;
 }
+
+
+.forside-bokse {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 5rem;
+    margin-bottom: 10%;
+}
+
+.grid-container img {
+    max-width: 100%;
+  
+}
+
+.grid-container img:nth-child(3) {
+    grid-column: 1 / span 2;
+}
+
+
+
+/*  spacing boxes */
+.simulator{
+    padding-left: 28%;
+}
+/* .vacciner{
+    margin-left: 4%;
+} */
+
+
