@@ -1,0 +1,29 @@
+[
+    {
+        "question" : "Hvilken type bakterie forårsager tuberkulose",
+        "answer" : "Mycobacterium tuberculosis",
+        "options" : [
+            "Escherichia coli", "Streptococcus pneumoniae"
+        ]
+        
+    },
+
+    {
+        "question" : "Hvornår blev den første tuberkulosevaccine, kendt som BCG-vaccinen, udviklet",
+        "answer" : "1921",
+        "options" : [
+            "1955", "1978"
+        ]
+        
+    },
+
+    {
+        "question" : "Hvilket land rapporterer den højeste forekomst af tuberkulose i verden",
+        "answer" : "Indien",
+        "options" : [
+            "USA", "Kina"
+        ]
+        
+    }
+]
+
