@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.instruktioner {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px; /* Adjust spacing between items */
+}
+
+.instruktioner div {
+    text-align: center;
+}
+
+.instruktioner img {
+    width: 100%; /* Set width to 100% of the container */
+    height: auto; /* Allow height to adjust proportionally */
+    max-width: 300px; /* Limit maximum width */
+    max-height: 200px; /* Limit maximum height */
+}
