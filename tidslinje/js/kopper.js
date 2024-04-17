@@ -2,11 +2,11 @@ const btn = document.querySelector('#btn');
 
 const main = document.querySelector('.container');
 
-const message = pageElem(main, 'div', 'Nu har du læst om Peters Kopper sygdom tag en quiz for at lærer mere om Kopper ', 'message');
+const message = pageElem(main, 'div', 'Nu har du læst om Peters Kopper sygdom- tag en quiz for at lærer mere om Kopper ', 'message');
 
 const output = pageElem(main, 'div', '', 'game');
 
-const url = '/Json/tuberkulosedata.json';
+const url = '/Json/kopper.json';
 
 const game = {score:0}
 
