@@ -158,6 +158,7 @@ p1{
     text-align: center;
     margin-left: 60%;
 }
+/* Peter's Historie slut */
 
 .kopper5 {
     width: 400px; /* Set width */
@@ -252,59 +253,38 @@ p1{
 
 /* hani css 👆 */
 
+/* Forsøg tekst1 */
 
-
-/* kopper quiz ↓ */
-
-
-
-/* .kopper-quiz{
+.slide-in-text {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10%;
-    margin-left: 25%;
-    
-    }
-    
-    .kopper-quiz h2{
-        color: #fff;
-        font-size: 4rem;
-        margin-left: 9%;
-    }
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 10%;
+    line-height: 1.5;
+    width: 30%;
+    text-align: center;
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 9.5s ease; /* Add a transition effect for opacity */
+}
 
-    .kopper-quiz p{
-        width: 80%;
-        font-size: 2rem;
-        margin-left: -8%;
+.slide-in-text.show {
+    opacity: 1; /* Show the text */
+}
+@keyframes slideIn {
+    0% {
+        opacity: 0; /* Start with the text hidden */
+        transform: translateX(-100%); /* Slide the text in from the left */
     }
+    100% {
+        opacity: 1; /* Fully visible */
+        transform: translateX(0); /* Slide the text back to its original position */
+    }
+}
 
-    .kopper-questions{
-        margin-top: 4%;
-        margin-bottom: 4%;
-        margin-left: -25vh;
-        display: flex;
-        flex-direction: row;
-    }
+.slide-in-text {
+    animation: slideIn 1s ease forwards; /* Apply the animation */
+}
 
-    .kopper-quiz span{
-        display: flex;
-        color: #fff;
-        font-size: 1.7rem;
-        padding: 3%;
-       
-    
-    }
-    .kopper-answer-btn {
-        width:20%;
-        height:auto;
-        border-radius: 10px;
-        font-size: 1.5rem;
-        margin-left: 20%;
-    }
-    
-    .kopper-quiz .kopper-btn-container{
-        display: flex;
-        flex-direction: row;
-        gap: 50.5rem;
-    } */
-    

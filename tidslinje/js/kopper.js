@@ -94,9 +94,3 @@ function outputQuestion(question, parent, tBtn){
 }
 
 
-function pageElem (parent, t, html, c){
-    const element = document.createElement(t);
-    element.innerHTML = html;
-    element.classList.add(c);
-    return parent.appendChild(element);
-}
