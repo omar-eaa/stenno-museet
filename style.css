@@ -27,7 +27,8 @@ h1{
 }
 
 .scroll{
-    height: 200vh;
+    position: absolute;
+    top: 150%;
     width: 100%;
 }
 
@@ -57,7 +58,7 @@ h1{
 
 /*  spacing boxes */
 .simulator{
-    padding-left: 28%;
+  margin-left: 60%;
 }
 /* .vacciner{
     margin-left: 4%;
