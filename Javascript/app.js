@@ -109,3 +109,37 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "../tidslinje/html-sider/tidslinje.html";
   });
 });
+
+// slide in text 
+
+document.addEventListener("DOMContentLoaded", function () {
+  function isInViewport(element) {
+    var rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function handleScroll() {
+    const section1 = document.querySelector("#section1 .slide-in-text");
+    const section2 = document.querySelector("#section2 .slide-in-text");
+    const section3 = document.querySelector("#section3 .slide-in-text");
+    const section4 = document.querySelector("#section3 .slide-in-text"); // Select section 4
+
+    if (isInViewport(section1)) {
+      section1.classList.add("show");
+    }
+    if (isInViewport(section2)) {
+      section2.classList.add("show");
+    }
+    if (isInViewport(section3)) {
+      section3.classList.add("show");
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll);
+  handleScroll(); // Initial check when the page loads
+});
