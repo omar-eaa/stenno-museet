@@ -1,0 +1,115 @@
+body{
+    background-color: #62BBFC;
+}
+
+.hygiejne-forside-overskrift{
+    position: absolute;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+  z-index: 1;
+  left: 32%;
+  top: 20%;
+}
+
+.hygiejne-forside-underskrift{
+    position: absolute;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: thin;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 1;
+  left: 31%;
+  top: 30%;
+}
+
+.hygiejne-tilbage-knap{
+    position: absolute;
+    width: 200px;
+    left: 30%;
+    top: 70%;
+    z-index: 1;
+}
+
+.lars{
+    width: 900px;
+    position: absolute;
+    left: 38%;
+    top: -2%;
+}
+
+.isabella{
+    width: 80%;
+    position: absolute;
+    left: -5%;
+    top: 5%;
+}
+
+.start-knap{
+    position: absolute;
+    width: 200px;
+    left: 55%;
+    top: 70%;
+    z-index: 1;
+}
+
+.video-1{
+    position: absolute;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.hygiejne-tilbage-knap-1{
+    position: absolute;
+    width: 200px;
+    left: 25%;
+    top: 80%;
+    z-index: 1;
+}
+
+.hygiejne-videre-knap{
+    position: absolute;
+    width: 200px;
+    left: 60%;
+    top: 80%;
+    z-index: 1;
+}
+
+.lars-tekst-1{
+    position: absolute;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: thin;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 1;
+  left: 10%;
+  top: 30%;
+  width: 30%;
+}
+
+.video-2{
+    position: absolute;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.lars-tekst-2{
+    position: absolute;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: thin;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 1;
+  left: 10%;
+  top: 20%;
+  width: 20%;
+}

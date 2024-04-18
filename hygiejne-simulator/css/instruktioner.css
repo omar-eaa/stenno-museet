@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif ;
+}
+
+.title{
+    background-color:#47BFFF ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 28px;
+   
+}
+
+.text-box{
+    background-color:#47BFFF ;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 15px;
+    padding: 28px;
+}
+.instruktioner {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 4rem; /* Adjust spacing between items */
+    margin-bottom: 5%;
+}
+
+.instruktioner div {
+    text-align: center;
+}
+
+.instruktioner img {
+    width: 100%; /* Set width to 100% of the container */
+    height: auto; /* Allow height to adjust proportionally */
+    max-width: 200px; /* Limit maximum width */
+    max-height: 150px; /* Limit maximum height */
+}
+
+
