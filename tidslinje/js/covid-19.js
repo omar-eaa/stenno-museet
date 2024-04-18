@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function () {
+  // starting quiz 1️⃣ button
+  document.getElementById("start-quiz").addEventListener("click", function () {
+    window.location.href = "../html-sider/covid-19.html";
+  });
+});
+
 const btn = document.querySelector("#btn");
 
 const main = document.querySelector(".container");
@@ -5,13 +12,13 @@ const main = document.querySelector(".container");
 const message = pageElem(
   main,
   "div",
-  "Nu har du læst om Amara’s tuberkulose forløb - tag quizzen herunder for at lære mere om Tuberkulose",
+  "Nu har du læst om Lena’s COVID-19 forløb - tag quizzen herunder for at lære mere om COVID-19",
   "message"
 );
 
 const output = pageElem(main, "div", "", "game");
 
-const url = "/Json/tuberkulosedata.json";
+const url = "../../Json/covid-19.json";
 
 const game = { score: 0 };
 
@@ -103,9 +110,12 @@ function pageElem(parent, t, html, c) {
   return parent.appendChild(element);
 }
 
+// tidslinje
+// back to timelinje
+
 document.addEventListener("DOMContentLoaded", function () {
   const tidslinje = document.getElementById("tidslinje");
   tidslinje.addEventListener("click", function () {
-    window.location.href = "../tidslinje/html-sider/tidslinje.html";
+    window.location.href = "../html-sider/tidslinje.html";
   });
 });

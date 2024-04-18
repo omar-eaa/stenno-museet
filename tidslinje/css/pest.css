@@ -15,6 +15,7 @@ h1{
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    text-align: center;
 }
 
 p{
@@ -25,6 +26,7 @@ p{
     justify-content: center;
     margin-top: 2%;
     line-height: 1.5;
+    text-align: center;
 }
 
 p1{
@@ -72,13 +74,13 @@ p1{
    margin-top: 5%;
 }
 .tekst-pest p {
-    font-size: 1.5rem;
+    font-size: 35px;
     height: 33%;
     width: 90%;
     margin-top: 0;
 }
 .pest-section img{
-    width: 40vh;
+    width: 25%;
     height: auto;
     margin-left: 2%; 
     margin-top: 3%; 
@@ -94,7 +96,7 @@ p1{
 }
 
 .pesten-area2 p{
-    font-size: 1.5rem;
+    font-size: 35px;
     width: 90%;
 }
 .pesten-area2 img{
@@ -113,7 +115,7 @@ p1{
 }
 
 .pesten-area3 p{
-    font-size: 1.5rem;
+    font-size: 35px;
     width: 90%;
 }
 .pesten-area3 img{
@@ -134,9 +136,10 @@ p1{
 }
 
 .pesten-area4 p{
-    font-size: 1.5rem;
+    font-size: 35px;
     width: 40%;
     margin-left: 10%;
+    z-index: 1;
 }
 .pesten-area4 img{
     height: auto;
@@ -144,6 +147,13 @@ p1{
     margin-top: -17%;
     margin-left: 60%;
     
+}
+
+.pesten-area4 video{
+    width: 800px;
+    position: absolute;
+    right: 5%;
+    z-index: -1;
 }
 
 
@@ -162,7 +172,7 @@ p1{
 }
 
 .pesten-area5 p{
-    font-size: 2rem;
+    font-size: 35px;
     width: 80%;
 }
 
@@ -305,20 +315,13 @@ margin-bottom: 10%;
     font-size: 15px;
 }
 
+
+
+
 #testviden{
     position: absolute;
-    top: 3600px;
-    left: 24.5%;
+    top: 220rem;
+    left: 22%;
     font-size: 100px;
     font-weight: bolder;
-}
-
-
-#testviden{
-    /* position: absolute;
-    top: 300rem; */
-    /* left: 24.5%; */
-    font-size: 100px;
-    font-weight: bolder;
-    margin-top: -20rem;
 }

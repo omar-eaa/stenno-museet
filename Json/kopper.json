@@ -1,0 +1,29 @@
+[
+    {
+        "question" : "Hvilken europæisk opdagelsesrejsende spillede en central rolle i spredningen af kopper til den indfødte befolkning i Amerika?",
+        "answer" : "Christopher Columbus",
+        "options" : [
+            "Ferdinand Magellan", "Vasco da Gama"
+        ]
+        
+    },
+
+    {
+        "question" : "Hvornår blev den første vellykkede vaccine mod kopper udviklet?",
+        "answer" : "18. århundrede",
+        "options" : [
+            "17 århundrede", "16. århundrede"
+        ]
+        
+    },
+
+    {
+        "question" : "Hvilket land blev hårdest ramt af kopper under historiens pandemier?",
+        "answer" : " Sovjetunionens",
+        "options" : [
+            "Indien", "Brasilien"
+        ]
+        
+    }
+]
+
