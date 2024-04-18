@@ -12,9 +12,16 @@
 <body>
 <video class="video-1" autoplay loop src="../tidslinje/video/hygiejne-simulator-lars (5).mp4"></video>
 <img class="hygiejne-tilbage-knap-1" src="../vaccine/img vaccine/tilbage-knap.png">
-<img class="hygiejne-videre-knap" src="../vaccine/img vaccine/videre-knap.png">
+<img id="videre" class="hygiejne-videre-knap" src="../vaccine/img vaccine/videre-knap.png">
 <p class="lars-tekst-1">Lars har det virkelig dårligt og har fundet ud af at han er syg</p>
 
-
+<script>
+    document.addEventListener("DOMContentLoaded", function (){
+        const videre = document.getElementById("videre"); 
+        videre.addEventListener("click", function(){
+            window.location.href = "./hygiejne-side2.html"
+        })
+    })
+    </script>
   
 </body>
