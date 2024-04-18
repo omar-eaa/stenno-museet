@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STENO-MUSEET HYGIEJNE</title>
-    <link rel="stylesheet" href="/stenno-museet/hygiejne-simulator/css/hygiejne.css">
+    <title>STENO-MUSEET VACCINER</title>
+    <link rel="stylesheet" href="./css/hygiejne.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -12,7 +12,18 @@
 <body>
     <h1 class="hygiejne-forside-overskrift">Hygiejne Simulatoren</h1>
     <p class="hygiejne-forside-underskrift">Hjælp Lars & Isabella med hygiejnen!</p>
-<a href="/stenno-museet/index.html"><img class="hygiejne-tilbage-knap" src="/stenno-museet/vaccine/img vaccine/tilbage-knap.png"></a>
-<a href="/stenno-museet/hygiejne-simulator/hygiejne-side1.html"><img class="start-knap" src="/stenno-museet/hygiejne-simulator/img/start-knap.png"></a>
-<img class="lars" src="/stenno-museet/hygiejne-simulator/img/lars.png">
-<img class="isabella" src="/stenno-museet/hygiejne-simulator/img/isabella.png">
+<img class="hygiejne-tilbage-knap" src="../vaccine/img vaccine/tilbage-knap.png">
+<img id="start" class="start-knap" src="./img/start-knap.png">
+<img class="lars" src="./img/lars.png">
+<img class="isabella" src="./img/isabella.png">
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+        const start = document.getElementById("start");
+        start.addEventListener("click", function(){
+            window.location.href = "./hygiejne-side1.html"
+        })
+    })
+</script>
+    
+</body>

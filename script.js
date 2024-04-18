@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const vacciner = document.getElementById("vacciner");
   vacciner.addEventListener("click", function () {
-    window.location.href = "./vaccine/vaccine-pest.html";
+    window.location.href = "./vaccine/vaccine-forside.html";
   });
 });
