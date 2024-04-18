@@ -134,32 +134,16 @@ body{
 
 .boks-mulighed-1{
     position: absolute;
-font-family: "Montserrat", sans-serif;
-color: white;
-font-weight: 200;
-font-style: thin;
-font-size: 2rem;
-text-align: center;
-border: 5px solid #47BFFF;
-border-radius: 10px;
-background-color: #47BFFF;
-top: 80%;
-left: 0%;
+    width: 900px;
+top: -10%;
+left: -65%;
 }
 
 .boks-mulighed-2{
     position: absolute;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    font-weight: 200;
-    font-style: thin;
-    font-size: 2rem;
-    text-align: center;
-    border: 5px solid #47BFFF;
-    border-radius: 10px;
-    background-color: #47BFFF;
+    width: 200px;
     top: 30%;
-    left: 0%;
+    left: 12%;
 }
 
 .video-lars-rigtig{
