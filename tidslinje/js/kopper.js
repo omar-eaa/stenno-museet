@@ -95,6 +95,20 @@ function outputQuestion(question, parent, tBtn) {
   });
 }
 
+// Back to timeline
+
+document.addEventListener("DOMContentLoaded", function () {
+  const tidslinje = document.getElementById("tidslinje");
+  tidslinje.addEventListener("click", function () {
+    window.location.href = "../html-sider/tidslinje.html";
+  });
+});
+
+
+
+
+// Slide in text
+
 document.addEventListener("DOMContentLoaded", function () {
   function isInViewport(element) {
     var rect = element.getBoundingClientRect();
