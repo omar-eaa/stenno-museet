@@ -132,18 +132,33 @@ body{
   height: 300px;
 }
 
-.boks-mulighed-1{
-    position: absolute;
-    width: 900px;
-top: -10%;
-left: -65%;
+/* lars */
+.lars-boks-mulighed-1{
+  position: absolute;
+  width: 255px;
+  top: 23%;
+  left: 2%;
 }
 
-.boks-mulighed-2{
+.lars-boks-mulighed-2{
     position: absolute;
     width: 200px;
-    top: 30%;
+    top: 68%;
     left: 12%;
+}
+/* isabel  */
+.isa-boks-mulighed-1{
+  position: absolute;
+  width: 255px;
+  top: 23%;
+  left: 2%;
+}
+
+.isa-boks-mulighed-2{
+  position: absolute;
+  width: 200px;
+  top: 68%;
+  left: 12%;
 }
 
 .video-lars-rigtig{

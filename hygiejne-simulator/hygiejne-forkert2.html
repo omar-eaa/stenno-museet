@@ -10,7 +10,29 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<video class="video-lars-rigtig" autoplay loop src="/stenno-museet/tidslinje/video/hygiejne-simulator-isabella-forkert.mp4"></video>
+<video class="video-lars-rigtig" autoplay loop src="../tidslinje/video/hygiejne-simulator-isabella.mp4"></video>
 <p class="lars-rigtig-skrift">Nej! Det er en dårlig ide at gå udenfor medmindre højst nødvendigt!<br>❌</p>
-<a href="/stenno-museet/hygiejne-simulator/hygiejne-side4.html"><img class="hygiejne-tilbage-knap-1" src="/stenno-museet/vaccine/img-vaccine/tilbage-knap.png" alt="tilbage"></a>
-<a href="/stenno-museet/hygiejne-simulator/hygiejne-slut.html"><img class="hygiejne-videre-knap" src="/stenno-museet/vaccine/img-vaccine/videre-knap.png" alt="videre"></a>
+<img id="tilbage" class="hygiejne-tilbage-knap-1" src="../vaccine/img-vaccine/tilbage-knap.png" alt="tilbage">
+<img id="videre" class="hygiejne-videre-knap" src="../vaccine/img-vaccine/videre-knap.png" alt="videre">
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+        const tilbage = document.getElementById("tilbage");
+        tilbage.addEventListener("click", function(){
+            window.location.href = "../hygiejne-simulator/hygiejne-side4.html"
+        })
+    })
+
+    document.addEventListener("DOMContentLoaded", function(){
+        const videre = document.getElementById("videre");
+        videre.addEventListener("click", function(){
+            window.location.href = "./hygiejne-slut.html"
+        })
+    })
+
+
+   
+</script>
+    
+</body>

@@ -12,8 +12,8 @@
 <body>
 <video class="video-lars-rigtig" autoplay loop src="../tidslinje/video//hygiejne-simulator-lars-forkert.mp4"></video>
 <p class="lars-forkert-skrift">Nej! undgå helst at gå udenfor medmindre det er nødvendigt! smitterisikoen er større når du er syg og er udenfor blandt andre mennesker! <br>❌ </p>
-<img id="tilbage" class="hygiejne-tilbage-knap-1" src="../vaccine/img vaccine/tilbage-knap.png">
-<a href="/stenno-museet/hygiejne-simulator/hygiejne-side4.html"><img class="hygiejne-videre-knap" src="../vaccine/img vaccine/videre-knap.png"></a>
+<img id="tilbage" class="hygiejne-tilbage-knap-1" src="../vaccine/img-vaccine/tilbage-knap.png">
+<img id="videre" class="hygiejne-videre-knap" src="../vaccine/img-vaccine/videre-knap.png">
 
 
 <script>
@@ -27,6 +27,12 @@
     })
 
     // videre knap 
+    document.addEventListener("DOMContentLoaded", function(){
+        const videre = document.getElementById("videre");
+        videre.addEventListener("click", function(){
+            window.location.href = "../hygiejne-simulator/hygiejne-side4.html"
+        })
+    })
 
 // ....
 </script>

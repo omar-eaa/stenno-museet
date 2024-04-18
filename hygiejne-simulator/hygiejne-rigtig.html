@@ -12,8 +12,8 @@
 <body>
     <video class="video-lars-rigtig" autoplay loop src="../tidslinje/video/hygiejne-simulator-lars-rigtig.mp4"></video>
     <p class="lars-rigtig-skrift">Ja! det er en rigtig god ide at lufte ud og forholde sig indenfor!<br>✅</p>
-<img id="tilbage" class="hygiejne-tilbage-knap-1" src="../vaccine/img vaccine/tilbage-knap.png">
-<a href="/stenno-museet/hygiejne-simulator/hygiejne-side4.html"><img class="hygiejne-videre-knap" src="../vaccine/img vaccine/videre-knap.png"></a>
+<img id="tilbage" class="hygiejne-tilbage-knap-1" src="../vaccine/img-vaccine/tilbage-knap.png">
+<img id="videre" class="hygiejne-videre-knap" src="../vaccine/img-vaccine/videre-knap.png">
 
 
 <script>
@@ -21,6 +21,13 @@
         const tilbage = document.getElementById("tilbage");
         tilbage.addEventListener("click", function(){
             window.location.href = "../hygiejne-simulator/hygiejne-side3.html"
+        })
+    })
+
+    document.addEventListener("DOMContentLoaded", function(){
+        const videre = document.getElementById("videre");
+        videre.addEventListener("click", function(){
+            window.location.href = "../hygiejne-simulator/hygiejne-side4.html"
         })
     })
 </script>
