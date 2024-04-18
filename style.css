@@ -43,6 +43,7 @@ h1{
     grid-template-rows: auto auto;
     gap: 5rem;
     margin-bottom: 10%;
+    z-index: 1;
 }
 
 .grid-container img {
@@ -53,8 +54,6 @@ h1{
 .grid-container img:nth-child(3) {
     grid-column: 1 / span 2;
 }
-
-
 
 /*  spacing boxes */
 .simulator{

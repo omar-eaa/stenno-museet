@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STENO-MUSEET VACCINER</title>
-    <link rel="stylesheet" href="/stenno-museet/hygiejne-simulator/css/hygiejne.css">
+    <title>STENO-MUSEET HYGIEJNE</title>
+    <link rel="stylesheet" href="./css/hygiejne.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<video class="video-2" autoplay loop src="/stenno-museet/tidslinje/video/hygiejne-simulator-lars-seng.mp4"></video>
-<img class="hygiejne-tilbage-knap-1" src="/stenno-museet/vaccine/img vaccine/tilbage-knap.png">
-<img class="hygiejne-videre-knap" src="/stenno-museet/vaccine/img vaccine/videre-knap.png">
+<video class="video-2" autoplay loop src="../tidslinje/video/hygiejne-simulator-lars-seng.mp4"></video>
+<img class="hygiejne-tilbage-knap-1" src="../vaccine/img vaccine/tilbage-knap.png">
+<img id="videre" class="hygiejne-videre-knap" src="../vaccine/img vaccine/videre-knap.png">
 <p class="lars-tekst-2">Han har mange søvnløse nætter og ondt i hovedet</p>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+        const videre = document.getElementById("videre");
+        videre.addEventListener("click", function (){
+            window.location.href = "./hygiejne-side3.html"
+        })
+    })
+</script>
+    
+</body>
