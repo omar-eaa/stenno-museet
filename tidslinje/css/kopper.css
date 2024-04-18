@@ -146,7 +146,7 @@ p1{
     margin-top: 10%;
 }
 
-#text-kopper4 p1{
+.text-kopper4 p1{
     color: rgb(255, 255, 255);
     font-size: 2rem;
     display: flex;
@@ -267,24 +267,35 @@ p1{
     width: 30%;
     text-align: center;
     opacity: 0; /* Initially hide the text */
-    transition: opacity 9.5s ease; /* Add a transition effect for opacity */
+    transform: translateY(100px); /* Move the element down initially */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transitions for opacity and transform */
 }
 
 .slide-in-text.show {
     opacity: 1; /* Show the text */
+    transform: translateY(0); /* Move the element back to its original position */
 }
+
 @keyframes slideIn {
     0% {
-        opacity: 0; /* Start with the text hidden */
-        transform: translateX(-100%); /* Slide the text in from the left */
+        opacity: 0; /* Start with the element hidden */
+        transform: translateY(100px); /* Move the element down initially */
     }
     100% {
         opacity: 1; /* Fully visible */
-        transform: translateX(0); /* Slide the text back to its original position */
+        transform: translateY(0); /* Move the element back to its original position */
     }
 }
 
-.slide-in-text {
-    animation: slideIn 1s ease forwards; /* Apply the animation */
+.slide-in {
+    opacity: 0; /* Start with the element hidden */
+    transform: translateY(100px); /* Move the element down initially */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Apply transition for smooth animation */
+    /* Add any other styles you need */
+}
+
+.slide-in.active {
+    opacity: 1; /* Make the element visible */
+    transform: translateY(0); /* Move the element back to its original position */
 }
 
