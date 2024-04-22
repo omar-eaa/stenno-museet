@@ -50,10 +50,12 @@ JavaScript
 
 6. Lavet af
 Mads - https://github.com/eaa23mgja
+<br />
 Omar - https://github.com/omar-eaa
+<br />
 Casper - https://github.com/Proteinbro
+<br />
 Hani - https://github.com/HaniBassam
-
 
 
 
@@ -67,5 +69,6 @@ Hani - https://github.com/HaniBassam
 
 
 
+Vi har brugt github til sammenarbejdet 
 
 
