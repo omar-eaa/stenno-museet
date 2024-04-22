@@ -70,6 +70,10 @@ Hani - https://github.com/HaniBassam
 
 
 
-Vi har brugt github til sammenarbejdet 
+![image](https://github.com/omar-eaa/stenno-museet/assets/143701116/7b045c7f-4a31-4705-b8d6-a1ce58c71023)
+
+
+
+ 
 
 
