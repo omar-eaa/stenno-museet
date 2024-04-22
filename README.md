@@ -48,7 +48,8 @@ function pageElem(parent, t, html, c) {
 https://spline.design/ - Meget er lavet ud fra templates vi har gjort til vores eget (da det er første gang vi prøver spline),YouTube tutorials og remixes
 JavaScript
 
-6. Lavet af
+<br />
+7. Lavet af
 Mads - https://github.com/eaa23mgja
 <br />
 Omar - https://github.com/omar-eaa
