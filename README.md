@@ -87,16 +87,18 @@ Vi har valgt at holde vores Git-workflow enkelt ved kun at committe direkte til 
 
 
 ## Main Branch
-* **Main**: Hovedgrenen af vores projekt, hvor al koden er placeret. Vi har kontinuerligt commitet vores ændringer direkte til denne gren.
+* **Main**: Hovedgrenen af vores projekt, hvor al koden er placeret. Vi har kun commitet vores ændringer direkte til denne gren.
+<img width="803" alt="Skærmbillede 2024-04-22 kl  21 46 31" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/7555d5b4-e7e4-44a2-a823-99bd13b25cec">
 
 
 ## Konflikthåndtering
 I tilfælde af konflikter har vi løst dem ved at samarbejde om at løse konflikterne, ofte ved at kommunikere direkte eller ved at bruge GitHub's indbyggede konflikthåndteringsværktøjer.
 
+<img width="511" alt="Skærmbillede 2024-04-22 kl  21 49 17" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/f35c7b92-5377-4348-bddc-f21d54fd5bce">
 
 
 
-Contributions til vores  main branch 
+## Contributions til vores  main branch 
 <img width="1020" alt="Skærmbillede 2024-04-22 kl  21 40 54" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/47b61680-dfab-45d5-93b2-0ed980b30fe3">
 
  
