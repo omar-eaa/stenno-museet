@@ -68,9 +68,17 @@ Hani - https://github.com/HaniBassam
 
 # Github samarbejdet 
 
+Vi har brugt GitHub til at samarbejde om dette projekt. Her er nogle af de væsentlige punkter om vores GitHub-samarbejde:
 
 
-![image](https://github.com/omar-eaa/stenno-museet/assets/143701116/7b045c7f-4a31-4705-b8d6-a1ce58c71023)
+
+## Repository Navn: stenno-museet
+Vi har oprettet et centralt GitHub-repository med navnet "stenno-museet", hvor vi har hostet vores projekt.
+
+
+
+
+
 
 
 
