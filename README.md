@@ -74,6 +74,8 @@ Vi har brugt GitHub til at samarbejde om dette projekt. Her er nogle af de væse
 
 ## Repository Navn: stenno-museet
 Vi har oprettet et centralt GitHub-repository med navnet "stenno-museet", hvor vi har hostet vores projekt.
+<img width="278" alt="Skærmbillede 2024-04-22 kl  21 34 12" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/db4f889c-3080-4889-ae34-bc97f2fbbb08">
+
 
 
 
