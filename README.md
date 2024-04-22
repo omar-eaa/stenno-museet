@@ -77,12 +77,27 @@ Vi har oprettet et centralt GitHub-repository med navnet "stenno-museet", hvor v
 <img width="278" alt="Skærmbillede 2024-04-22 kl  21 34 12" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/db4f889c-3080-4889-ae34-bc97f2fbbb08">
 
 
+##  GitHub Desktop
+
+Vi har brugt GitHub Desktop til at administrere vores workflow. GitHub Desktop har gjort det nemt for os at udføre handlinger som push, pull og commit uden at skulle side med visual studio code live share.
+![image](https://github.com/omar-eaa/stenno-museet/assets/143701116/0c76e9d9-d79a-40be-8f8e-6cd92b7a1dbd)
+
+## Branching Strategi
+Vi har valgt at holde vores Git-workflow enkelt ved kun at committe direkte til hovedgrenen (main). Dette betyder, at al vores kode findes direkte på hovedgrenen, og der er ikke oprettet separate grenforlængelser til funktioner eller opgaver.
+
+
+## Main Branch
+* **Main**: Hovedgrenen af vores projekt, hvor al koden er placeret. Vi har kontinuerligt commitet vores ændringer direkte til denne gren.
+
+
+## Konflikthåndtering
+I tilfælde af konflikter har vi løst dem ved at samarbejde om at løse konflikterne, ofte ved at kommunikere direkte eller ved at bruge GitHub's indbyggede konflikthåndteringsværktøjer.
 
 
 
 
-
-
+Contributions til vores  main branch 
+<img width="1020" alt="Skærmbillede 2024-04-22 kl  21 40 54" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/47b61680-dfab-45d5-93b2-0ed980b30fe3">
 
  
 
