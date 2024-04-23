@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const section1 = document.querySelector("#section1 .slide-in-text");
     const section2 = document.querySelector("#section2 .slide-in-text");
     const section3 = document.querySelector("#section3 .slide-in-text");
-    const section4 = document.querySelector("#section3 .slide-in-text"); // Select section 4
+    const section4 = document.querySelector("#section4 .slide-in-text"); // Corrected selection for section 4
 
     if (isInViewport(section1)) {
       section1.classList.add("show");
@@ -137,6 +137,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     if (isInViewport(section3)) {
       section3.classList.add("show");
+    }
+    if (isInViewport(section4)) { // Check if section 4 is in view
+      section4.classList.add("show"); // Add animation activation class for section 4
     }
   }
 
