@@ -16,6 +16,11 @@ Sidste oplevelse er en hygiejne simulator, hvor brugeren bestemmer, hvilken retn
 
 For at opnå det endelige produkt, har vi benyttet os af forskellige elementer i HTML, CSS og Javascript, der arbejder sammen med Json data. Specifikt i quizzen bruger vi meget Json, som arbejder sammen med Javascript, hvor vi bruger function "fetch" til at hente alt dataen ned. Det kan f.eks. ses i følgende del kode:
 ```js
+
+const url = "../../Json/pest.json";
+
+
+
 fetch(url)
     .then((res) => res.json())
     .then((data) => {
