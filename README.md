@@ -87,7 +87,7 @@ Vi har valgt at holde vores Git-workflow enkelt ved kun at committe direkte til 
 
 
 ## Main Branch
-* **Main**: Hovedgrenen af vores projekt, hvor al koden er placeret. Vi har kun commitet vores ændringer direkte til denne gren.
+* **Main**: Hovedgrenen af vores projekt, hvor alt koden er placeret. Vi har kun commitet vores ændringer direkte til denne gren.
 <img width="803" alt="Skærmbillede 2024-04-22 kl  21 46 31" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/7555d5b4-e7e4-44a2-a823-99bd13b25cec">
 
 
