@@ -28,6 +28,40 @@ fetch(url)
       createQuestion(temp);
     });
 ```
+
+json data eksampel 
+```js
+[
+    {
+        "question" : "Hvilket århundrede blev Europa hårdest ramt af pesten?",
+        "answer" : "14. århundrede",
+        "options" : [
+            "17.  århundrede", "19.  århundrede"
+        ]
+        
+    },
+
+    {
+        "question" : " Hvad var den mest almindelige form for pesten, der ramte Europa i middelalderen?",
+        "answer" : "Lymfeknudepest",
+        "options" : [
+            "Lungepest", "Loppepest"
+        ]
+        
+    },
+
+    {
+        "question" : "Hvad var det vigtigste middelalderlige kendetegn ved byldepesten?",
+        "answer" : "Sorte bylder",
+        "options" : [
+            "Svimmelhed & opkastning", "Hoste og åndenød"
+        ]
+        
+    }
+]
+```
+
+
 Vi har også benyttet os en del af DOM-Manipulation, således vi kunne give fat i variabler fra HTML-koden og benytte os af dem i Javascript.
 ```js
 const btn = document.querySelector("#btn");
@@ -43,7 +77,6 @@ function pageElem(parent, t, html, c) {
   return parent.appendChild(element);
 }
 ```
-
 5. Elementer 
 https://spline.design/ - Meget er lavet ud fra templates vi har gjort til vores eget (da det er første gang vi prøver spline),YouTube tutorials og remixes
 JavaScript
