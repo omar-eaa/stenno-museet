@@ -20,8 +20,9 @@ For at opnå det endelige produkt, har vi benyttet os af forskellige elementer i
 const url = "../../Json/pest.json";
 ```
 <img width="208" alt="Skærmbillede 2024-04-25 kl  09 25 34" src="https://github.com/omar-eaa/stenno-museet/assets/143701116/c3593ab3-86c9-4553-9116-a17d056d803d">
-```js
 
+
+```js
 fetch(url)
     .then((res) => res.json())
     .then((data) => {
